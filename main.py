@@ -14,11 +14,11 @@ transformations_font = freetype.SysFont(pygame.font.get_default_font(), 15)
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 
-POINTS, EDGES = parse_obj_to_numpy("cube.obj")
-# POINTS, EDGES = parse_obj_to_numpy("sphere.obj")
-POINTS, EDGES = parse_obj_to_numpy("teapot.obj")
-# POINTS, EDGES = parse_obj_to_numpy("airboat.obj")
-# POINTS, EDGES = parse_obj_to_numpy("13463_Australian_Cattle_Dog_v3.obj")
+POINTS, EDGES = parse_obj_to_numpy("models/cube.obj")
+# POINTS, EDGES = parse_obj_to_numpy("models/sphere.obj")
+POINTS, EDGES = parse_obj_to_numpy("models/teapot.obj")
+# POINTS, EDGES = parse_obj_to_numpy("models/airboat.obj")
+# POINTS, EDGES = parse_obj_to_numpy("models/13463_Australian_Cattle_Dog_v3.obj")
 
 POINTS = center_object(POINTS)
 # POINTS = rotate_y(POINTS, 90)

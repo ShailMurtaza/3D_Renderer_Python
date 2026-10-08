@@ -31,9 +31,9 @@ python main.py
 To switch models, edit the commented-out lines at the top of `main.py`:
 
 ```python
-# POINTS, EDGES = parse_obj_to_numpy("cube.obj")
-# POINTS, EDGES = parse_obj_to_numpy("sphere.obj")
-POINTS, EDGES = parse_obj_to_numpy("teapot.obj")
+# POINTS, EDGES = parse_obj_to_numpy("models/cube.obj")
+# POINTS, EDGES = parse_obj_to_numpy("models/sphere.obj")
+POINTS, EDGES = parse_obj_to_numpy("models/teapot.obj")
 ```
 
 ## Controls
